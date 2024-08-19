@@ -4,6 +4,7 @@ import 'package:practice_flutter/ui/visa_card_design.dart';
 import 'package:practice_flutter/utils/colors.dart';
 import 'package:practice_flutter/widget/drop_down_list.dart';
 import 'package:practice_flutter/widget/image_picker_widet.dart';
+import 'package:practice_flutter/widget/location.dart';
 import 'package:practice_flutter/widget/stack.dart';
 import 'package:practice_flutter/widget/tab_bar.dart';
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ImagePickerWidget(),
+      home: const LocationTest(),
     );
   }
 }
