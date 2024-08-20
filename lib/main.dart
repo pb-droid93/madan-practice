@@ -8,6 +8,9 @@ import 'package:practice_flutter/widget/location.dart';
 import 'package:practice_flutter/widget/stack.dart';
 import 'package:practice_flutter/widget/tab_bar.dart';
 
+import 'day19ui/day19.dart';
+import 'day19ui/day20.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -27,7 +30,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LocationTest(),
+      home: const Day20(),
     );
   }
 }
